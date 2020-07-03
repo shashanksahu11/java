@@ -28,6 +28,6 @@ public class SourceFileNameRule {
  * @author shashank
  *
  */
- private class Test {
+ class Test {
 	
 }
