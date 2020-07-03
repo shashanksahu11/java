@@ -15,6 +15,7 @@ public class JVMInternalsGetClass
 
 		// Getting hold of Class object created 
 		// by JVM. 
+		@SuppressWarnings("rawtypes")
 		Class c1 = s1.getClass(); 
 
 		// Printing type of object using c1. 
