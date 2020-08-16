@@ -51,10 +51,10 @@ public class FastInputReader {
 	public static void main(String[] args) {
 		FastReader fastReader = new FastReader();
 		System.out.println("Enter number of items");
-		int nnumberOfInputs = fastReader.nextInt();
+		int numberOfInputs = fastReader.nextInt();
 		System.out.println("Enter values");
 		StringBuilder builder = new StringBuilder();
-		while (nnumberOfInputs-- > 0) {
+		while (numberOfInputs-- > 0) {
 			builder.append(fastReader.nextLine());
 		}
 		System.out.println(builder.toString());
